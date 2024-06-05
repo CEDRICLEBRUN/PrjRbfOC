@@ -1,0 +1,18 @@
+{
+    "prenom": "emptyName",
+    "nom": "emptyFirstName",
+    "dateNaissance": "emptyBirthday",
+    "adresse": "emptyAdress",
+    "currentPays": "countryEmpty",
+    "ville": "cityEmpty",
+    "codePostal": "zipCodeEmpty",
+    "passport": "passeportNumber",
+    "cin": "idCardEmpty",
+    "username": "emptyMail",
+    "tel": "phoneEmpty",
+    "password": "passewordEmpty",
+    "confirmPassword": "confirmPassewordEmpty",
+    "raisonSociale": "socialReason",
+    "siret": "siretEmpty",
+    "nombreSalarie": "numberEmplyeesEmpty"
+}

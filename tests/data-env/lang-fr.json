@@ -1,0 +1,302 @@
+{
+	"common": {
+		"header": {
+            "title": "OpenCruise",
+			"title.strong": "OPENCRUISE",
+			"welcome": "Bienvenue",
+			"homeWelcome": "Réalisez la croisière de vos rêves"
+		},
+		"vertical-menu": {
+            "menu": "Menu",
+            "logout": "Se déconnecter",
+            "users": "Utilisateurs",
+            "cruises": "Croisières",
+            "pictures": "Images",
+            "brochures": "Brochures"
+		},
+		"button": {
+			"search": "Rechercher",
+			"clear": "Réinitialiser",
+			"new": "Nouveau",
+			"save": "Enregistrer",
+			"edit": "Modifier",
+			"delete": "Supprimer",
+			"quit": "Quitter",
+			"ok": "OK",
+			"annuler": "Annuler",
+			"abandon": "Abandonner",
+			"validate": "Valider",
+			"cancelAction": "Annuler l'action",
+			"yes":"Oui",
+			"no":"Non",
+			"more":"En savoir plus",
+			"startFrom":"à partir de",
+			"reserver":"Réserver",
+			"downloadProg":"Télécharger le programme",
+			"Make payment":"Procéder au paiement",
+			"close": "Fermer"
+		},
+		"table": {
+			"empty": "Pas de résultat",
+			"expand": "Ouvrir",
+			"collapse": "Fermer"
+		},
+		"label": {
+			"day": "jour(s)",
+			"night": "nuit(s)",
+			"duration": "Durée",
+			"previous": "Précédant",
+			"next": "Suivant",
+			"bateau": "Bateau",
+			"destination": "Destination",
+			"dateDepart": "Date de départ",
+			"dateArrivee": "Date d'arrivée",
+			"backHome": "Retour à la page d’accueil",
+			"yes": "Oui",
+			"no": "Non"
+		}
+	},
+	"registerPage":{
+		"label": {
+			"individual":"Particulier",
+			"name":"Nom",
+			"firstName":"Prénom",
+			"birthday":"Date de naissance",
+			"adress":"Adresse",
+			"zipCode":"Code postal",
+			"city":"Ville",
+			"country":"Pays",
+			"phone":"Téléphone",
+			"passportNumber":"Numéro de passeport",
+			"idCard":"Numéro de carte d’identité",
+			"password":"Nouveau mot de passe",
+			"confirmPassword":"Confirmer le mot de passe",
+			"nameSpouse":"Nom du conjoint",
+			"firstNameSpouse":"Prénom du conjoint",
+			"birthdaySpouse":"Date de naissance du conjoint",
+			"socialReason":"Raison sociale",
+			"numberEmployees":"Nombre de salarié",
+			"secondDelegate":"Ajouter un deuxième représentant",
+			"subscribe":"Créer votre compte",
+			"haveAccount":"Déjà un compte? Connectez vous ici",
+			"fillInFields":"Renseignez tous les champs pour créer votre compte",
+			"signUp":"Formulaire d'inscription",
+			"welcome":"Bienvenue sur nos croisières",
+			"secondDelegateTitle":"Deuxième représentant"
+		},
+		"error":{
+			"emptyName":"merci de saisir votre nom",
+			"emptyFirstName":"merci de saisir votre prénom",
+			"emptyMail":"merci de saisir votre email",
+			"formatMail":"le format est incorrect merci de renseigner un email valide",
+			"emptyBirthday":"merci de saisir la date de naissance",
+			"emptyAdress":"merci de saisir votre adresse",
+			"zipCodeEmpty":"merci de saisir le code postal",
+			"cityEmpty":"merci de saisir la ville",
+			"countryEmpty":"merci de saisir le Pays",
+			"passewordEmpty":"merci de saisir le mot de passe",
+			"phoneEmpty":"merci de saisir le téléphone",
+			"passeportNumber":"merci de saisir le numéro de passeport",
+			"idCardEmpty":"merci de saisir le Numéro de carte d’identité",
+			"passewordPattern":"le mot de passe doit contenir des lettres et des chiffres et un minimum de 8 caractères",
+			"confirmPassewordEmpty":"Merci de confirmer votre mot de passe",
+			"confirmPasseword":"les mots de passe doivent être identiques",
+			"socialReason":"merci d’indiquer la raison sociale ",
+			"siretEmpty":"Merci d’indiquer le n° de SIRET",
+			"numberEmplyeesEmpty":"Merci d’indiquer le nombre de salariés"
+			
+		}
+	},
+	"paymentPage":{
+		"labels":{
+			"dataInfo": "Toutes nos transactions sont sécurisées et criptées. Les informations fournis ne seront jamais stockées.",
+			"carte": "Payer par Carte",
+			"cheque": "Payer par chèque",
+			"paypal": "Payer par Paypal",
+			"mthodPay": "Méthode  de Paiement",
+			"typeCart": "Type de carte",
+			"namecrtholder": "Nom du titulaire de la carte",
+			"numCarte": "Numéro de carte",
+			"expirDate": "Date d’expiration",
+			"CVC": "CVC",
+			"Total": "Total",
+			"subTotal": "Sous total",
+			"detailsRes": "Détails de réservation ",
+			"adresse": "Adresse de facturation",
+			"modifieadressFact": "Modifier l’adresse de facturation",
+			"Paiement": "Paiement",
+			"newadresse": "Nouvelle Adresse",
+			"myAdress": "Mon adresse",
+			"delivery": "Livraison",
+			"free": "Gratuite"
+		},
+		"validators":{
+			"validAdress": "Merci de saisir votre adresse",
+			"validCart": "Merci de renseigner le type de la carte",
+			"validHoldercart": "Merci de renseigner le nom du titulaire de la carte",
+			"cartNull": "Merci de saisir le numéro de votre carte bancaire",
+			"cartInva": "Votre carte numéro de carte bancaire et erroné",
+			"formatInc": "Format incorrect",
+			"cartExp": "Votre carte est expiré",
+			"cvcinv": "Merci de renseigner un CVC valide"
+		}
+	},
+	"profilPage":{
+		"label": {
+			"title":"Mon espace personnel",
+			"editPasseword":"Modifier votre mot de passe",
+			"update":"Mettre à jour",
+			"cancel":"Annuler",
+			"updateImage":"Modifier/ajouter une photo de profil ",
+			"deleteImage":"Supprimer la photo de profil",
+			"register":"Enregistrer"
+		}
+	},
+	"panierPage":{
+		"label": {
+			"myCart":"Mon panier",
+			"sum":"Total",
+			"deleteItem":"Supprimer l'article",
+			"reservation":"Réservation",
+			"ofCruise":"de la croisiere ",
+			"resrvationPrice":"Prix de Résérvation",
+			"buy":"Payer",
+			"subTotal":"Sous total (TVA incluse)",
+			"share":"partager",
+			"payment":"Paiement",
+			"nbrPlaces": "Nombre de places résérvés",
+			"promotion": "Choisir votre promotion",
+			"reduction": "Choisissez votre réduction"
+		}
+	},
+	"reservationPage":{
+		"label": {
+			"numberPassengers":"Nombre de passagers",
+			"messagePassengers":"Si vous voyagez avec une femme enceinte ou un e personne ayant des besoins spéciaux, nous vous conseillons de contacter nos opérateurs",
+			"cabinType":"Type de cabine",
+			"options":"Quelques options",
+			"meal":"Repas",
+			"bag":"Ajouter au panier",
+			"numberPlace":"nombre de places",
+			"from":"à partir de",
+			"listCabin":"Liste des cabines Resérvées",
+			"startFrom":"A partir de",
+			"addCabin":"Ajouter une cabine",
+			"adultes":"Adultes (à partir de 18 ans)",
+			"enfant":"Enfant (2 à 17 ans)",
+			"bebe":"Bébé (0 à 1 ans)",
+			"cabinClass":"Classe de cabine",
+			"cabinPrice":"Prix de la cabine",
+			"mealPreferences":"Préférences de repas",
+			"shareCabin":"Partager la cabine"
+		}
+	},
+    "loginPage": {
+        "title": "Bienvenue sur nos croisières",
+        "username": {
+            "label": "Identifiant",
+			"placeholder": "Nom de l'utilisateur",
+			"empty": "Merci de renseigner votre identifiant"
+        },
+        "password": {
+            "label": "Mot de passe",
+			"placeholder": "Mot de passe",
+			"empty": "Merci de renseigner votre mot de passe"
+        },
+        "button": {
+            "connection": "Connexion"
+        },
+        "create.account": "Vous n'avez pas de compte ? Créez-en un ici",
+        "identity.info": "Renseignez vos identifiants pour accéder à votre compte"
+    },
+	"homePage": {
+		"title": "Page d'accueil",
+		"dialog-box": {
+			"perimeterChoiceTitle": "Choix du périmètre",
+			"perimeterChoiceMessage": "Veuillez choisir un périmètre",
+			"defaultPerimeterChoice": "Code client"
+		},
+		"keyword" : "Mots-clés",
+		"continents" :{
+			"europe": "europe",
+			"amerique": "amerique",
+			"afrique": "afrique",
+			"asie": "asie",
+			"oceanie": "oceanie"
+		}
+	},
+	"croisiere":
+	{
+		"validation":{
+			"date1": "Date arrivée est inferieure à la date de depart",
+			"date2":  "Date de fin doit etre supperieur a la date du debut",
+			"nbrCabine": "Le nombre de cabines dépasse 50",
+			"nbrPlaces": "Le nombre de places dépasse 10"
+		},
+		"cabine":{
+			"enregister": "Cabines enregistrées,Merci de publier de vos modifications"
+		},
+		"reservation":{
+			"nbrPlacesRestantes":"Merci de réduire le nombre de passager dans la réservation. {{key1}} place(s) restante(s) sur la croisière.",
+			"placesNotDispo": "Places non disponibles.",
+			"selectCabine": "Merci de d'ajouter une cabine.",
+			"cabineReserved": "Cabine résérvée",
+			"errorReservation": "Erreur de résérvation !"
+		}
+	},
+    "alert": {
+        "unknowError":"Erreur inconnue ne provoquant pas l'enregistrement : {{message}}",
+		"generalDatabaseError": "Une erreur de base de données s'est produite : {{message}}.",
+		"publierCroisiere": "Vos modifications sont publiées",
+		"fileUploaded": "Votre fichier est enregistré"
+    },
+    "calendar": {
+		"firstDayOfWeek": 1,
+		"dayNames": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
+		"dayNamesShort": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+		"dayNamesMin": ["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"],
+		"monthNames": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+		"monthNamesShort": ["Jan", "Fev", "Mar", "Avr", "Mai", "Juin", "Juil", "Aou", "Sep", "Oct", "Nov", "Dec"],
+		"today": "Aujourd'hui",
+		"clear": "Vider"
+	},
+    "exception": {
+		"erreur.technique": "Erreur technique",
+		"throttling": "Nombre de limite des appels au service paiement est atteint, 3 appels par heure",
+		"connexion": {
+			"CNX_ERROR_00001": "mot de passe ou identifiant invalide",
+			"CNX_ERROR_00002": "mot de passe ou identifiant invalide, il vous reste {{key1}} tentatives",
+			"CNX_ERROR_00003": "votre compte est bloqué",
+			"CNX_ERROR_00004": "mot de passe ou identifiant invalide, votre compte à été bloqué",
+			"CNX_ERROR_00005": "votre compte est bloqué, merci de contacter l'administrateur",
+			"CNX_ERROR_00006": "l’email est déjà utilisé. Essayez un autre email"
+		},
+		"panier": {
+			"PAN_ERROR_00001": "mot de passe ou identifiant invalide"
+		},
+		"payment": {
+			"PAY_ERROR_00001": "mot de passe ou identifiant invalide"
+		},
+		"file":{
+			"FIL_ERROR_00001": "Taille de fichier dépasse {{key1}} Mo"
+		},
+		"utilisateur.deconnecte": "Utilisateur déconnecté",
+		"utilisateur.login.error": "Mot de passe ou identifiant invalide, votre compte à été bloqué.",
+		"privileges.insuffisants": "Privilèges insuffisants",		
+		"requete.erronee": "Requête erronée",
+		"utilisateur.update.erreur.login": "Affectation impossible, le client ne possède pas de login.",
+        "update.erreur.fileNotFound": "Erreur, aucun fichier envoyé.",
+        "update.erreur.mandatoryField": "Erreur, veillez renseigner les champs sont obligatoires.",
+		"error.json.param.structure":"Le paramètre métier {{key1}} est mal formaté",
+		"common": {
+			"error": {
+				"empty": "Le champ ne peut pas être vide"				
+			},
+			"success": {
+				"delete": "Suppression effectuée",
+				"create": "Ajout effectué",
+				"update": "Mise à jour effectuée"
+			}
+		}
+	}
+}

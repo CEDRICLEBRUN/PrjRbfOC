@@ -1,0 +1,295 @@
+{
+	"common": {
+		"header": {
+            "title": "OpenCruise",
+			"title.strong": "OPENCRUISE",
+			"welcome": "Welcome",
+			"homeWelcome": "Make the cruise of your dreams"
+		},
+		"vertical-menu": {			
+			"menu": "Menu",
+            "logout": "Sing out",
+            "users": "Users",
+            "cruises": "Cruises",
+            "pictures": "Pictures",
+            "brochures": "Brochures"
+		},
+		"button": {
+			"search": "Search",
+			"clear": "Clear",
+			"new": "New",
+			"save": "Save",
+			"edit": "Edit",
+			"delete": "Delete",
+			"quit": "Quit",
+			"ok": "OK",
+			"annuler": "Cancel",
+			"abandon": "Abandon",
+			"validate": "Validate",
+			"yes":"Yes",
+			"no":"No",
+			"more":"Learn more",
+			"startFrom":"start from",
+			"reserver":"Book",
+			"downloadProg":"Download the program",
+			"Make payment":"Make payment",
+			"close": "Close"
+		},
+		"table": {
+			"empty": "Pas de résultat",
+			"expand": "Ouvrir",
+			"collapse": "Fermer"
+		},
+		"label": {
+			"day": "day(s)",
+			"night": "night(s)",
+			"duration": "Duration",
+			"previous": "Previous",
+			"next": "Next",
+			"bateau": "Boat",
+			"destination": "Destination",
+			"dateDepart": "Date of departure",
+			"dateArrivee": "Arrival date",
+			"backHome": "Back to the homepage",
+			"yes": "Yes",
+			"no": "No"						 
+		}
+	},
+	"registerPage":{
+		"label": {
+			"individual":"Individual",
+			"name":"Name",
+			"firstName":"First Name",
+			"birthday":"Birthday",
+			"adress":"Adress",
+			"zipCode":"Zip Code",
+			"city":"City",
+			"country":"Country",
+			"phone":"Phone",
+			"passportNumber":"Passport Number",
+			"idCard":"ID Card",
+			"password":"Password",
+			"confirmPassword":"Confirm Password",
+			"nameSpouse":"Name of spouse",
+			"firstNameSpouse":"First name of spouse",
+			"birthdaySpouse":"Birthday of spouse",
+			"socialReason":"Social reason",
+			"numberEmployees":"Number Of Employees",
+			"secondDelegate":"Add a second delegate",
+			"subscribe":"Subscribe",
+			"haveAccount":"Already have an account ? Login",
+			"fillInFields":"Fill in all the fields to create your account",
+			"signUp":"Sign up",
+			"welcome":"Welcome to our cruises",
+			"secondDelegateTitle":"Second Delegate"
+		},
+		"error":{
+			"emptyName":"Please enter your name",
+			"emptyFirstName":"Please enter your first name",
+			"emptyMail":"Please enter your email",
+			"formatMail":"The format is incorrect thanks to enter a valid email",
+			"emptyBirthday":"Please enter the birthday",
+			"emptyAdress":"Please enter the adress",
+			"zipCodeEmpty":"Please enter the zip code",
+			"cityEmpty":"Please enter the city",
+			"countryEmpty":"Please enter the country",
+			"phoneEmpty":"Please enter the phone number",
+			"passeportNumber":"Please enter the  passport number",
+			"idCardEmpty":"Please enter the ID card",
+			"passewordPattern":"the password must contain letters and numbers and a minimum of 8 characters",
+			"confirmPasseword":"passwords must be identical",
+			"socialReason":"Please enter the social reason",
+			"siretEmpty":"Please enter the SIRET number",
+			"confirmPassewordEmpty":"please confirm your passeword",
+			"numberEmplyeesEmpty":"Please enter the number of employees",
+			"passewordEmpty":"please enter your password"
+			
+		}
+	},
+	"paymentPage":{
+		"labels":{
+				"dataInfo": "All our transactions are secure and encrypted. The information provided will never be stored.",
+				"carte": "Pay by Card",
+				"cheque": "Pay by Check",
+				"paypal": "Pay by Paypal",
+				"mthodPay": "Payment method",
+				"typeCart": "Kind of card",
+				"namecrtholder": "Name of cardholder",
+				"numCarte": "Card number",
+				"expirDate": "Expiration date",
+				"CVC": "CVV number",
+				"Total": "Sum",
+				"subTotal": "Sub total",
+				"detailsRes ": "Reservation detail",
+				"adresse": "Adress",
+				"modifieadressFact": "Modify your billing address",
+				"Paiement": "Checkout",
+				"newadresse": "New Adress",
+				"myAdress": "My Adress",
+				"delivery": "Delivery",
+				"free": "Free"
+			},
+		"validators":{
+			"validAdress": "Please fill in your billing address.",
+			"validCart": "Merci de renseigner le type de la carte",
+			"validHoldercart": "Please entre the name of cardholder",
+			"cartNull": "Your credit card number is wrong",
+			"cartInva": "Your credit card number is wrong",
+			"formatInc": "Format incorrect",
+			"cartExp": "Your card has expired",
+			"cvcinv": "Please enter a valid CVV"
+			}
+			},
+	"profilPage":{
+		"label": {
+			"title":"My personal space",
+			"editPasseword":"Change your password",
+			"update":"Update",
+			"cancel":"Cancel",
+			"updateImage":"Add/change your profile picture",
+			"deleteImage":"Delete a profile picture",
+			"register":"Save"
+		}
+	},
+	"panierPage":{
+		"label": {
+			"myCart":"My cart",
+			"sum":"Sub",
+			"deleteItem":"Delete the item",
+			"reservation":"Reservation",
+			"ofCruise":"of the cruise ",
+			"resrvationPrice":"Reservation price",
+			"buy":"Buy",
+			"subTotal":"Sub total(included tax)",
+			"share":"share",
+			"payment":"Payment",
+			"nbrPlaces": "Number of reserved places",
+			"promotion": "Choose your promotion",
+			"reduction": "Choose your reduction"
+		}
+	},
+	"reservationPage":{
+		"label": {
+			"numberPassengers":"Number of passengers",
+			"messagePassengers":"If you are traveling with a pregnant woman or someone with special needs, we advise you to contact our operators",
+			"cabinType":"Type of Cabin",
+			"options":"Some options",
+			"meal":"meal",
+			"bag":"Add to cart",
+			"numberPlace":"Number of places",
+			"from":"from",
+			"listCabin":"List of reserved cabin",
+			"startFrom":"Start from",
+			"addCabin":"Add cabin",
+			"adultes":"Adults (from 18 years)",
+			"enfant":"Child ( 2 to 17 years)",
+			"bebe":"Baby (0 to 1 year)",
+			"cabinClass":"Cabin Class",
+			"cabinPrice":"Cabin price",
+			"mealPreferences":"meal preferences",
+			"shareCabin":"Share the cabin"		
+		}
+	},
+  "loginPage": {
+        "title": "Welcome to our cruises",
+        "username": {
+            "label": "Login",
+			"placeholder": "Username",
+			"empty": "Please enter your login"
+        },
+        "password": {
+            "label": "Password",
+			"placeholder": "Password",
+			"empty": "Please enter your password"
+        },
+        "button": {
+            "connection": "Sign in"
+        },
+        "create.account": "You do not have an account? Create one here",
+        "identity.info": "Fill in your login details to access your account"
+    },
+	"homePage": {
+		"title": "Page d'accueil",
+		"dialog-box": {
+			"perimeterChoiceTitle": "Choix du périmètre",
+			"perimeterChoiceMessage": "Veuillez choisir un périmètre",
+			"defaultPerimeterChoice": "Code client"
+		},
+		"keyword" : "Keywords",
+		"continents" :{
+			"europe": "europe",
+			"amerique": "america",
+			"afrique": "africa",
+			"asie": "asia",
+			"oceanie": "oceania"
+		}
+	},
+	"croisiere":
+	{
+		"validation":{
+			"date1": "Arrival date is less than the departure date",
+			"date2": "End date must be greater than the start date",
+			"nbrCabine": "The number of cabins exceeds 50",
+			"nbrPlaces": "The number of cabins exceeds 10"
+		},
+		"cabine":{
+			"enregister": "Registered cabins, Please publish your changes"
+		},
+		"reservation":{
+			"nbrPlacesRestantes":"Thank you to reduce the number of passengers in the reservation. {key1} remaining place (s) on the cruise.",
+			"placesNotDispo": "Places non disponibles.",
+			"selectCabine": "Please choose a cabine.",
+			"cabineReserved": "Cabine reserved",
+			"errorReservation": "Reservation error"
+		}
+
+	},
+    "alert": {
+        "unknowError":"Erreur inconnue ne provoquant pas l'enregistrement : {{message}}",
+		"generalDatabaseError": "Une erreur de base de données s'est produite : {{message}}.",
+		"publierCroisiere": "Your changes are published",
+		"fileUploaded": "Your file is uploaded"
+    },
+    "calendar": {
+		"firstDayOfWeek": 1,
+		"dayNames": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
+		"dayNamesShort": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+		"dayNamesMin": ["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"],
+		"monthNames": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+		"monthNamesShort": ["Jan", "Fev", "Mar", "Avr", "Mai", "Juin", "Juil", "Aou", "Sep", "Oct", "Nov", "Dec"],
+		"today": "Aujourd'hui",
+		"clear": "Vider"
+	},
+    "exception": {
+		"erreur.technique": "Technical error : {{key1}}",
+		"connexion": {
+			"CNX_ERROR_00001": "invalid username or password",
+			"CNX_ERROR_00002": "invalid password or login, you have {{key1}} attempts remaining",
+			"CNX_ERROR_00003": "your account is blocked",
+			"CNX_ERROR_00004": "invalid username or password, your account is blocked",
+			"CNX_ERROR_00005": "your account is blocked, please contact the administrator",
+			"CNX_ERROR_00006": "Email is already used. try another one"
+		},
+		"file":{
+			"FIL_ERROR_00001": "Taille de fichier dépasse {{key1}} Mo"
+		},
+		"throttling": "Nombre de limite des appels au service paiement est atteint, 3 appels par heure",
+		"utilisateur.deconnecte": "Utilisateur déconnecté",
+		"privileges.insuffisants": "Privilèges insuffisants",		
+		"requete.erronee": "Requête erronée",
+		"utilisateur.update.erreur.login": "Affectation impossible, le client ne possède pas de login.",
+        "update.erreur.fileNotFound": "Erreur, aucun fichier envoyé.",
+        "update.erreur.mandatoryField": "Erreur, veillez renseigner les champs sont obligatoires.",
+		"error.json.param.structure":"Le paramètre métier {{key1}} est mal formaté",
+		"common": {
+			"error": {
+				"empty": "Le champ ne peut pas être vide"			
+			},
+			"success": {
+				"delete": "Suppression effectuée",
+				"create": "Ajout effectué",
+				"update": "Mise à jour effectuée"
+			}
+		}
+	}
+}
